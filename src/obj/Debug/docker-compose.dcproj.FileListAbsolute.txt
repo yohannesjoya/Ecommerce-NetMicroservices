@@ -20,3 +20,15 @@ C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Catalog.API.pdb
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Basket.Api.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Basket.Api.runtimeconfig.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Basket.Api.exe
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Basket.Api.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\StackExchange.Redis.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Pipelines.Sockets.Unofficial.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\bin\Debug\Basket.Api.pdb
