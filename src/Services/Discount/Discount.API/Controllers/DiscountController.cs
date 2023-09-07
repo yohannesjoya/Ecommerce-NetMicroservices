@@ -1,4 +1,5 @@
-﻿using Discount.API.Entities;
+﻿using Discount.API.Dtos;
+using Discount.API.Entities;
 using Discount.API.repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -29,7 +30,7 @@ namespace Discount.API.Controllers
         //  ------------------------- 2. CreateDiscount -------------------------
         [HttpPost]
         [ProducesResponseType(typeof(Coupon), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Coupon>> Create([FromBody] Coupon coupon)
+        public async Task<ActionResult<Coupon>> Create([FromBody] CreateCouponDto coupon)
         {
             await _repository.CreateDiscount(coupon);
             return CreatedAtRoute("GetDiscount", new { productname = coupon.ProductName }, coupon);
@@ -38,7 +39,7 @@ namespace Discount.API.Controllers
         //  ------------------------- 3. UpdateDiscount -------------------------
         [HttpPut]
         [ProducesResponseType(typeof(Coupon), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Coupon>> Update([FromBody] Coupon coupon)
+        public async Task<ActionResult<Coupon>> Update([FromBody] UpdateCouponDto coupon)
         {
             return Ok(await _repository.UpdateDiscount(coupon));
         }
