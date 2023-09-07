@@ -1,4 +1,6 @@
+using Discount.API.Extensions;
 using Discount.API.repositories;
+using Microsoft.OpenApi.Any;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 
 var app = builder.Build();
+app.MigrateDb<AnyType>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
