@@ -31,3 +31,5 @@ C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net7.0\Discount.API.pdb
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net7.0\Discount.API.genruntimeconfig.cache
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\obj\Debug\net7.0\ref\Discount.API.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net7.0\Dapper.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.API\bin\Debug\net7.0\Npgsql.dll
