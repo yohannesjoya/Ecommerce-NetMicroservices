@@ -34,6 +34,9 @@ message UpdateDiscountRequest {
 }
 // ----------- 4.  DeleteDiscount  -------------------
 
+message DeleteDiscountRequest {
+	string ProductName = 1;
+}
 message DeleteDiscountResponse{
 	bool success = 1;
 }

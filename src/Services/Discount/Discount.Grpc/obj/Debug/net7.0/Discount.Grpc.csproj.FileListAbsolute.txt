@@ -37,3 +37,5 @@ C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net7.0\Npgsql.dll
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc\obj\Debug\net7.0\Discount.Grpc.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Discount\Discount.Grpc\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
