@@ -43,15 +43,6 @@ namespace Basket.Api.Controllers
                 product.Price -= coupon.Amount;
             
             }
-            Console.WriteLine("============== Discount is Done on the cart");
-
-            foreach (var product in cart.items)
-            {
-
-                Console.WriteLine($"after Discount {product.ProductName}, {product.Price}");
-
-
-            }
 
             return Ok(await _cartRepository.UpdateCart(cart));
         }
