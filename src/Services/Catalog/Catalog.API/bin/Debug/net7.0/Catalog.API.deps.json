@@ -9,7 +9,7 @@
       "Catalog.API/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.10",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.4",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
           "MongoDB.Driver": "2.21.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -69,7 +69,7 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {},
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {},
       "Microsoft.Win32.Registry/5.0.0": {
         "dependencies": {
           "System.Security.AccessControl": "5.0.0",
@@ -282,12 +282,12 @@
       "path": "microsoft.openapi/1.4.3",
       "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.4",
-      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+      "sha512": "sha512-Kaa1rBZdJFq5A0qgAcl6Bmk/UqLXTq9acEqxUlPEBA8oscmakLfkvuSXfG7Wa9t1/keaT85EuuDNgOo+Z9VYOQ==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.5",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/5.0.0": {
       "type": "package",

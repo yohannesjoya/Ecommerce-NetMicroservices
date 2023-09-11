@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EQ4Qc73rss1eCc7wza7UAF1Eb/tivMkem7M27uE3XxkgBlmUKkcm3KlBeD9JO++7yrcWQS5sZLV7p7p6S+ONUQ==",
+  "dgSpecHash": "AFhhYViEKm9SZk+vbiub6FAzB0tyA2+nmkT2k7m1cdRmtj3ncbX6QEK+H8IwK520oo1q770lesSPtwQLfKu+9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
+    "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\mongodb.bson\\2.21.0\\mongodb.bson.2.21.0.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\mongodb.driver\\2.21.0\\mongodb.driver.2.21.0.nupkg.sha512",

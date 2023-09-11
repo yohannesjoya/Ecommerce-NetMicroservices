@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6vhuPRr9UmM9obG6X0xqqIfJMDHG125JBuUgavKO8Lsaeqn7ja1QDHuPENF9dlXOG3iXBZIWAhWkri38cGAOQQ==",
+  "dgSpecHash": "ucokz/DK3DNZdSVL4fbizfkUqZKS8NiogJd+g7PLO8Lki9dJjgLP2iCv4BEJLvHmpM7jFUsH6Oo8/Hc58NZSrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Persistence\\Ordering.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Msi pc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
-    "C:\\Users\\Msi pc\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
-    "C:\\Users\\Msi pc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
+    "C:\\Users\\Msi pc\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Msi pc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Msi pc\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
