@@ -1,0 +1,11 @@
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\bin\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfoInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.AssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\refint\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Domain\obj\Debug\net7.0\ref\Ordering.Domain.dll

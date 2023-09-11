@@ -1,0 +1,17 @@
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Application.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Application.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CopyComplete
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\refint\Ordering.Infrastructure.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Infrastructure\obj\Debug\net7.0\ref\Ordering.Infrastructure.dll

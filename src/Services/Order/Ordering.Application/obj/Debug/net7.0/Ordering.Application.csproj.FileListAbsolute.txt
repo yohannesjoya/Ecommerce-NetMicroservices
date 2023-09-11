@@ -1,0 +1,15 @@
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\bin\Debug\net7.0\Ordering.Application.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\bin\Debug\net7.0\Ordering.Application.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\bin\Debug\net7.0\Ordering.Application.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\bin\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\bin\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.AssemblyReference.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.AssemblyInfoInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.AssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.CoreCompileInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.csproj.CopyComplete
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\refint\Ordering.Application.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\Ordering.Application.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Application\obj\Debug\net7.0\ref\Ordering.Application.dll
