@@ -1,0 +1,17 @@
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Persistence.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Persistence.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Persistence.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Application.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Application.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\bin\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.csproj.AssemblyReference.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.AssemblyInfoInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.AssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.csproj.CopyComplete
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\refint\Ordering.Persistence.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\Ordering.Persistence.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Order\Ordering.Persistence\obj\Debug\net7.0\ref\Ordering.Persistence.dll
