@@ -14,7 +14,7 @@ namespace Ordering.Application
     public static class ApplicationServicesRegistration
     {
 
-        public static IServiceCollection ConfigurervicesRegistration(this IServiceCollection services )
+        public static IServiceCollection AddApplicationLayer(this IServiceCollection services )
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
