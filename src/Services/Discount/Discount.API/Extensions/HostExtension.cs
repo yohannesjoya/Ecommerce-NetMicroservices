@@ -15,7 +15,7 @@ namespace Discount.API.Extensions
 
                 try
                 {
-                    logger.LogInformation("Migrated database");
+                    logger.LogInformation("Migrating database of context DiscountDb");
                     using var connection = new NpgsqlConnection(config.GetValue<string>("DatabaseSettings:ConnectionString"));
 
                     connection.Open();
@@ -37,11 +37,13 @@ namespace Discount.API.Extensions
                     command.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('OnePlus 9 Pro', 'OnePlus Discount', 100);";
                     command.ExecuteNonQuery();
 
-                    logger.LogInformation("Migrated database");
+                    logger.LogInformation("FINISHED Migrating database of context DiscountDb");
 
-                } catch (NpgsqlException ex)
+
+                }
+                catch (NpgsqlException ex)
                 {
-                    logger.LogError(ex, "An error occured while migrating the database");
+                    logger.LogError(ex, "An error occured while migrating the database of DiscountDb");
 
                     if (retryForAvailability < 50)
                     {

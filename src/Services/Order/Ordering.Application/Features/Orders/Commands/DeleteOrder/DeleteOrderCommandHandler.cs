@@ -36,11 +36,12 @@ namespace Ordering.Application.Features.Orders.Commands.DeleteOrder
 
             _mapper.Map(request, orderToDelete, typeof(DeleteOrderCommand), typeof(Order));
 
-            await _orderRepository.UpdateAsync(orderToDelete);
+            await _orderRepository.DeleteAsync(orderToDelete);
 
             _logger.LogInformation($"Order {orderToDelete.Id} is successfully Deleted.");
 
-            return Unit.Value; throw new NotImplementedException();
+            return Unit.Value;
+
         }
     }
 }

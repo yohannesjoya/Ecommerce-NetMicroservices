@@ -31,9 +31,6 @@
               "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Application\\Ordering.Application.csproj": {
                 "projectPath": "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Application\\Ordering.Application.csproj"
               },
-              "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Domain\\Ordering.Domain.csproj": {
-                "projectPath": "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Domain\\Ordering.Domain.csproj"
-              },
               "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Msi pc\\Desktop\\MSV\\NetMicroservices\\src\\Services\\Order\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
               },
@@ -55,7 +52,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[11.1.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -261,25 +258,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.Extensions.Configuration.Abstractions": {
+            "SendGrid": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[9.28.1, )"
             }
           },
           "imports": [
@@ -341,6 +326,34 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
