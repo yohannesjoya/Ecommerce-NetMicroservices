@@ -8,11 +8,13 @@ services:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
+
   basketdb:
     container_name: basketdb
     restart: always
     ports:
       - "6379:6379"
+
   discountdb:
     container_name: discountdb
     environment:
@@ -24,16 +26,15 @@ services:
       - "5432:5432"
     volumes:
        - postgres_data:/var/lib/postgresql/data/
+
   orderdb:
     container_name: orderdb
     environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=admin234
+        SA_PASSWORD: "SwN12345678"
+        ACCEPT_EULA: "Y"
     restart: always
     ports:
-      - "1433:1433"
-    volumes:
-       - mssql_data:/var/opt/mssql/data/
+        - "1433:1433"
 
   pgadmin:
     container_name: pgadmin
@@ -97,3 +98,12 @@ services:
     ports:
       - "8003:80"
 
+  ordering.api:
+    container_name: ordering.api
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - "ConnectionStrings:OrderConnectionString=Server=orderdb,1433;Database=OrderDb;User Id=sa;Password=SwN12345678;Trusted_Connection=True;TrustServerCertificate=True;Integrated Security=false;" 
+    depends_on:
+        - orderdb
+    ports:
+        - "8004:80"

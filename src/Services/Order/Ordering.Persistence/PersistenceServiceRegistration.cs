@@ -11,9 +11,13 @@ namespace Ordering.Persistence
 
         public static IServiceCollection AddPersistenceLayer(this IServiceCollection services, IConfiguration configuration)
         {
+            string x = configuration.GetConnectionString("OrderConnectionString");
+            Console.WriteLine("===========================================================");
+            Console.WriteLine(x);
+            Console.WriteLine("===========================================================");
+
             services.AddDbContext<OrderDbContext>(options =>
-               options.UseSqlServer(
-                   configuration.GetConnectionString("OrderConnectionString")));
+               options.UseSqlServer(x));
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IOrderRepository, OrderRepository>();
