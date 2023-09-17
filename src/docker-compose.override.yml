@@ -30,7 +30,7 @@ services:
   orderdb:
     container_name: orderdb
     environment:
-        SA_PASSWORD: "SwN12345678"
+        SA_PASSWORD: "ABC@def123"
         ACCEPT_EULA: "Y"
     restart: always
     ports:
@@ -102,7 +102,7 @@ services:
     container_name: ordering.api
     environment:
         - ASPNETCORE_ENVIRONMENT=Development
-        - "ConnectionStrings:OrderConnectionString=Server=orderdb,1433;Database=OrderDb;User Id=sa;Password=SwN12345678;Trusted_Connection=True;TrustServerCertificate=True;Integrated Security=false;" 
+        - "ConnectionStrings:OrderConnectionString=Server=orderdb,1433;Database=OrderDb;User Id=sa;Password=ABC@def123;Trusted_Connection=True;TrustServerCertificate=True;Integrated Security=false;" 
     depends_on:
         - orderdb
     ports:
