@@ -4,6 +4,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 EXPOSE 80
 
+
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["Services/Order/Ordering.Api/Ordering.Api.csproj", "Services/Order/Ordering.Api/"]
@@ -11,6 +12,8 @@ COPY ["Services/Order/Ordering.Application/Ordering.Application.csproj", "Servic
 COPY ["Services/Order/Ordering.Domain/Ordering.Domain.csproj", "Services/Order/Ordering.Domain/"]
 COPY ["Services/Order/Ordering.Infrastructure/Ordering.Infrastructure.csproj", "Services/Order/Ordering.Infrastructure/"]
 COPY ["Services/Order/Ordering.Persistence/Ordering.Persistence.csproj", "Services/Order/Ordering.Persistence/"]
+COPY ["Buildingblocks/EventBus.Messages/EventBus.Messages.csproj", "Buildingblocks/EventBus.Messages/"]
+
 RUN dotnet restore "Services/Order/Ordering.Api/Ordering.Api.csproj"
 COPY . .
 WORKDIR "/src/Services/Order/Ordering.Api"

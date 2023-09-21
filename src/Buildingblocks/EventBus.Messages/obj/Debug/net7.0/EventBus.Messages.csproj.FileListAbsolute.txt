@@ -1,0 +1,11 @@
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.deps.json
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\bin\Debug\net7.0\EventBus.Messages.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.AssemblyInfoInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.AssemblyInfo.cs
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\refint\EventBus.Messages.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\EventBus.Messages.pdb
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Buildingblocks\EventBus.Messages\obj\Debug\net7.0\ref\EventBus.Messages.dll

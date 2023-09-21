@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 
 var app = builder.Build();
-app.MigrateDb<AnyType>();
+app.MigrateDb<Program>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

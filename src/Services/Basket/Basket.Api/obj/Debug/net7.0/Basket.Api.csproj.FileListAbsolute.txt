@@ -57,3 +57,15 @@ C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\Grpc.Net.Client.dll
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
 C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\EventBus.Messages.dll
+C:\Users\Msi pc\Desktop\MSV\NetMicroservices\src\Services\Basket\Basket.Api\bin\Debug\net7.0\EventBus.Messages.pdb

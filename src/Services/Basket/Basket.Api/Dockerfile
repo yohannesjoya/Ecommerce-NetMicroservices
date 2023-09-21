@@ -7,6 +7,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["Services/Basket/Basket.Api/Basket.Api.csproj", "Services/Basket/Basket.Api/"]
+COPY ["Buildingblocks/EventBus.Messages/EventBus.Messages.csproj", "Buildingblocks/EventBus.Messages/"]
 RUN dotnet restore "Services/Basket/Basket.Api/Basket.Api.csproj"
 COPY . .
 WORKDIR "/src/Services/Basket/Basket.Api"
@@ -19,3 +20,6 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Basket.Api.dll"]
+
+
+

@@ -1,6 +1,9 @@
-﻿using Basket.Api.Entities;
+﻿using AutoMapper;
+using Basket.Api.Entities;
 using Basket.Api.GrpcServices;
 using Basket.Api.Repositories;
+using EventBus.Messages.Events;
+using MassTransit;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -15,12 +18,16 @@ namespace Basket.Api.Controllers
         private readonly ICartRepository _cartRepository;
         private readonly ILogger<BasketController> _logger;
         private readonly DiscountGrpcServices _discountGrpcServices;
+        private readonly IPublishEndpoint _publishEndpoint;
+        private readonly IMapper _mapper;
 
-        public BasketController(ICartRepository cartRepository, DiscountGrpcServices discountGrpcServices, ILogger<BasketController> logger)
+        public BasketController(ICartRepository cartRepository, DiscountGrpcServices discountGrpcServices, ILogger<BasketController> logger, IMapper mapper, IPublishEndpoint publishEndpoint)
         {
             _cartRepository = cartRepository;
              _discountGrpcServices = discountGrpcServices;
             _logger = logger;
+            _mapper = mapper;
+            _publishEndpoint = publishEndpoint;
         }
 
 
@@ -56,6 +63,31 @@ namespace Basket.Api.Controllers
 
             return Ok();
         
+        }
+
+        [Route("[action]")]
+        [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.Accepted)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Checkout([FromBody] BasketCheckout basketCheckout)
+        {
+
+            var cart = await _cartRepository.GetCart(basketCheckout.UserName);
+            if (cart is null)
+            {
+                _logger.LogError("CheckOut : Basket not found for user {userName}", basketCheckout.UserName);
+                return BadRequest();
+            }
+
+            var eventMessage = _mapper.Map<BasketCheckoutEvent>(basketCheckout);
+            eventMessage.TotalPrice = cart.TotalPriceCal;
+            await _publishEndpoint.Publish(eventMessage);
+             
+
+
+            await _cartRepository.DeleteCart(basketCheckout.UserName);
+
+            return Ok();
         }
     }
 }

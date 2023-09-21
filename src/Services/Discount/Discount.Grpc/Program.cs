@@ -17,7 +17,7 @@ builder.Services.AddGrpc();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
-app.MigrateDb<AnyType>();
+app.MigrateDb<Program>();
 
 app.MapGrpcService<DiscountService>();
 // Configure the HTTP request pipeline.
