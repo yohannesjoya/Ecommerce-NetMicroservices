@@ -42,7 +42,11 @@ namespace Catalog.API.Controllers
 
         }
 
-        // ----------------- 3. Get Product by Catagory -----------------
+        // ----------------- 3. Get Product by
+        //
+        //
+        //
+        // -----------------
         [Route("[Action]/{category}", Name = "GetProductsByCategory")]
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<Product>),(int)HttpStatusCode.OK)]
