@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EbpxymmHYONynB88wZkN5UQyM2wzoUWw9Sjuj2n1Ud0=",
+  "Source": "Request.Aggregator",
+  "BasePath": "_content/Request.Aggregator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

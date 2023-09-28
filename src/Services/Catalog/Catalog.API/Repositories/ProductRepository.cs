@@ -26,7 +26,7 @@ namespace Catalog.API.Repositories
         {
             return await _dbContext.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
-        //get by catagory
+        //get by category
         public async Task<IEnumerable<Product>> GetProductsByCategory(string category)
         {
             FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Category, category);
