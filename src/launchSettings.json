@@ -9,7 +9,8 @@
         "discount.api": "StartDebugging",
         "discount.grpc": "StartDebugging",
         "ordering.api": "StartDebugging",
-        "ocelotgetway": "StartDebugging"
+        "ocelotgetway": "StartDebugging",
+        "request.aggregator": "StartDebugging"
       }
     }
   }
