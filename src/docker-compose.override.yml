@@ -122,6 +122,11 @@ services:
     container_name: ocelotgetway
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - catalog.api
+      - basket.api
+      - discount.api
+      - ordering.api
     ports:
       - "8100:80"
 

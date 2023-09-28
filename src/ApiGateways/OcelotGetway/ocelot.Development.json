@@ -10,7 +10,10 @@
         }
       ],
       "UpstreamPathTemplate": "/Catalog",
-      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 15,
+      },
     },
     {
       "DownstreamPathTemplate": "/api/v1/Catalog/{id}",
@@ -71,7 +74,14 @@
         }
       ],
       "UpstreamPathTemplate": "/Basket/Checkout",
-      "UpstreamHttpMethod": [ "POST" ]
+      "UpstreamHttpMethod": [ "POST" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "DownstreamPathTemplate": "/api/v1/Discount",
@@ -111,6 +121,9 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:8100"
+    "BaseUrl": "https://localhost:8100",
+    //"RateLimitOptions": {
+      //"ClientIdHeader": "X-Client-Id"
+    //}
   }
 }
